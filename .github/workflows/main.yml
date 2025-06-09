@@ -3,7 +3,7 @@ name: Build APK Without Signing
 on:
   push:
     branches:
-      - main  # تشغيل العمل عند تحديث الفرع الرئيسي
+      - master   # تشغيل العمل عند تحديث الفرع الرئيسي
 
 jobs:
   build:
